@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shape Up or Shape Out</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+
+        <div class="container">
+            <div id=leftSide>
+                <h2>Shape Measurement</h2>
+
+                <div class="main">
+                    <!--Rectangle-->
+                    <label for="rectangle">Rectangle:</label>
+                    <input type="number" id="rec-width" placeholder="width">
+                    <input type="number" id="rec-height" placeholder="height">
+                    <button id="rec-button">Add Rectangle</button>
+                </div>
+                <div class="main">
+                    <!--Square-->
+                    <label for="square">Square:</label>
+                    <input type="number" id="sq-length" placeholder="side length">
+                    <button id="sq-button">Add Square</button>
+                </div>
+
+                <div class="main">
+                    <!--Circle-->
+                    <label for="circle">Circle:</label>
+                    <input type="number" id="cir-radius" placeholder="radius">
+                    <button id="cir-button">Add Circle</button>
+                </div>
+
+                <div class="main">
+                    <!--Triangle-->
+                    <label for="triangle">Triangle:</label>
+                    <input type="number" id="tri-height" placeholder="height">
+                    <button id="tri-button">Add Triangle</button>
+                </div>
+
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+
+                <!--Property Names-->
+
+                <div class="main">
+                 <h2>Properties</h2>
+
+                    <ul>
+                    <li>Shape Name:</li>
+
+                    <li>Width</li>
+
+                    <li>Height:</li>
+                
+                    <li>Radius:</li>
+               
+                    <li>Area:</li>
+              
+                    <li>Perimeter:</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="bkgRight"></div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

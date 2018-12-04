@@ -1,0 +1,87 @@
+h2 {
+    padding-left: 10px;
+    }
+
+    h4 {
+        padding: 5px;;
+        }
+
+.wrapper {
+    position: relative;
+    width: 1200px;
+}
+button {
+    float: right;
+}
+.square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: palevioletred;
+    position: absolute;
+
+  }
+
+  .rectangle {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: slateblue;
+    position: absolute;
+  }
+
+  .circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: plum;
+    border-radius: 50%
+    
+  }
+
+  .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid darkmagenta;
+  }
+
+  input{
+    margin-left: 10px;
+    width: 70px;
+}
+label{
+    display: inline-block;
+    width: 90px;
+}
+
+#leftSide  {
+
+    width: 45%;
+    height: 600px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgb(247, 195, 177);
+}
+
+.main {
+    display: block;
+    padding: 10px;
+}
+
+span{
+    float: right;
+    margin-right: 15px;
+}
+
+#bkgRight {
+
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: rgb(40, 92, 76);
+}
